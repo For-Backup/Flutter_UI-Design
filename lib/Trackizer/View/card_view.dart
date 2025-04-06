@@ -98,7 +98,7 @@ class CardView extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15),
                 onTap: () {},
                 child: DottedBorder(
-                  dashPattern: [5,5],
+                  dashPattern: const [5,5],
                   strokeWidth: 1,
                   borderType: BorderType.RRect,
                   radius: const Radius.circular(15),

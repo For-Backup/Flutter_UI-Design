@@ -43,7 +43,7 @@ class PaymentDetailInfo extends StatelessWidget {
                 color: Colors.black,
               ),
             ),
-            const Text(
+            Text(
               "02 Mar 2021",
               style: TextStyle(
                 height: 1.3,

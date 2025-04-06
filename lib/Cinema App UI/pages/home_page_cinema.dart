@@ -1,7 +1,6 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_ui_design/Cinema%20App%20UI/consts.dart';
 import 'package:flutter_ui_design/Cinema%20App%20UI/models/category_model.dart';
 import 'package:flutter_ui_design/Cinema%20App%20UI/pages/detail_page.dart';

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_ui_design/Food%20Delivery%20App/Widget/products_items_display.dart';
 import 'package:flutter_ui_design/Food%20Delivery%20App/consts.dart';
 import 'package:flutter_ui_design/Food%20Delivery%20App/models/categories_model.dart';

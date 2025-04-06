@@ -11,7 +11,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
-  List<Map<String, String>> _messages = [];
+  final List<Map<String, String>> _messages = [];
 
   Future<void> _sendMessage(String message) async {
     // Add the user's message to the chat

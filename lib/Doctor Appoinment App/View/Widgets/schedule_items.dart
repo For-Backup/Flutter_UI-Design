@@ -162,7 +162,7 @@ class ScheduleItems extends StatelessWidget {
                 child: const Center(
                   child: Text(
                     "Reschedule",
-                    style: const TextStyle(
+                    style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,
                       fontWeight: FontWeight.bold,

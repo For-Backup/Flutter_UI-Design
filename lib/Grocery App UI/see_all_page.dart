@@ -131,7 +131,7 @@ class _SeeAllProductsState extends State<SeeAllProducts> {
         crossAxisCount: 2,
         childAspectRatio: 2.0/3.0,
         shrinkWrap: false,
-        children: [
+        children: const [
           ProductItem(image: "assets/grocery-ui/banana.png", title: "Fresh Banana", price: "\$2.30/Kilo"),
           ProductItem(image: "assets/grocery-ui/milk.png", title: "Plain Milk", price: "\$4.10/Bottle"),
           ProductItem(image: "assets/grocery-ui/egg_4.png", title: "White Egg", price: "\$6.00/12"),

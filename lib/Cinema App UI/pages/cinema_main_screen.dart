@@ -51,7 +51,7 @@ class _CinemaMainScreenState extends State<CinemaMainScreen> {
               child: Stack(
                 children: [
                   AnimatedContainer(
-                    duration: Duration(milliseconds: 300),
+                    duration: const Duration(milliseconds: 300),
                     height: currentIndex == index ? 25 : 0,
                     width: currentIndex == index ? 25 : 0,
                     decoration: BoxDecoration(

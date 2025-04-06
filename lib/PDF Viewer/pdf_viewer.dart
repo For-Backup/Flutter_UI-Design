@@ -8,7 +8,7 @@ class ViewPDF extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
     
-      body: PDF().cachedFromUrl(
+      body: const PDF().cachedFromUrl(
              'https://ontheline.trincoll.edu/images/bookdown/sample-local-pdf.pdf',
              placeholder: (progress) => Center(child: Text('$progress %')),
              errorWidget: (error) => Center(child: Text(error.toString())),
